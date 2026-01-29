@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>67 ყარჩაი საქართველო</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --red: #c40000;
+      --dark: #111;
+      --gray: #666;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Noto Serif Georgian", serif;
+      color: #000;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      background: #fff;
+      border-bottom: 1px solid #eee;
+    }
+
+    .nav {
+      max-width: 1200px;
+      margin: auto;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--red);
+    }
+
+    .nav ul {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+      font-size: 14px;
+    }
+
+    .hero {
+      position: relative;
+      height: 420px;
+      background:
+        linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.85)),
+        url("https://images.unsplash.com/photo-1602600236326-2f8f19a0df2b") center/cover no-repeat;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    .hero-buttons {
+      margin-top: 24px;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      font-size: 14px;
+      border: 1px solid #fff;
+      cursor: pointer;
+    }
+
+    .btn.red {
+      background: var(--red);
+      border-color: var(--red);
+      color: #fff;
+    }
+
+    .btn.white {
+      background: #fff;
+      color: #000;
+    }
+
+    section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .info-box {
+      border: 1px solid var(--red);
+      padding: 24px;
+      text-align: center;
+    }
+
+    .info-box h3 {
+      color: var(--red);
+      margin-bottom: 12px;
+      font-size: 18px;
+    }
+
+    .info-box p {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .blog-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    .blog-header a {
+      color: var(--red);
+      font-size: 14px;
+    }
+
+    .post {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 20px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--red);
+      color: #fff;
+      font-size: 12px;
+      padding: 4px 8px;
+      margin-bottom: 10px;
+    }
+
+    .meta {
+      font-size: 12px;
+      color: var(--gray);
+      margin-bottom: 8px;
+    }
+
+    .post h3 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 14px;
+      color: var(--red);
+    }
+
+    footer {
+      background: #000;
+      color: #aaa;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 13px;
+    }
+
+    footer span {
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 30px;
+      }
+
+      .nav ul {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">67 ყარაჩაი საქართველო</div>
+    <ul>
+      <li>მთავარი</li>
+      <li>ბლოგი</li>
+      <li>სტატიის დამატება</li>
+      <li>ჩვენ შესახებ</li>
+      <li>შესვლა</li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>67 ყარაჩაი საქართველო</h1>
+    <p>
+      საგანმანათლებლო მედიაპლატფორმა საქართველოს
+      პოლიტიკური ორგანიზაციის შესახებ
+    </p>
+    <div class="hero-buttons">
+      <a class="btn red">გაიგე მეტი</a>
+      <a class="btn white">ბლოგი</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>ჩვენი მისია</h2>
+  <div class="info-grid">
+    <div class="info-box">
+      <h3>გამჭვირვალობა</h3>
+      <p>
+        ჩვენს საქმიანობაში არ არსებობს ფარული მიზნები.
+        ყველა ინფორმაცია საჯაროა.
+      </p>
+    </div>
+    <div class="info-box">
+      <h3>ცნობიერება</h3>
+      <p>განათლება.</p>
+    </div>
+    <div class="info-box">
+      <h3>განვითარება</h3>
+      <p>
+        კრიტიკული აზროვნება, ლოგიკა და სამოქალაქო
+        ცნობიერების განვითარება.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="blog-header">
+    <h2>ბოლო პუბლიკაციები</h2>
+    <a href="#">ყველას ნახვა →</a>
+  </div>
+
+  <div class="post">
+    <span class="tag">დემოკრატია</span>
+    <div class="meta">📅 January 29, 2026 · 👤 lain</div>
+    <h3>test</h3>
+    <p>ox demokratia</p>
+    <a class="read-more" href="#">სრულად წაკითხვა →</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 <span>67 იარაღი საქართველოსი</span><br/>
+  საგანმანათლებლო მედიაპლატფორმა პოლიტიკური ორგანიზაციის შესახებ
+</footer>
+
+</body>
+</html>
